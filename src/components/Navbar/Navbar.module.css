@@ -42,12 +42,12 @@
 }
 
 .menuItems a:hover {
-  background-color: #ee6c4d;
+  background-color:#106EBE;
   color: white;
 }
 
 .active {
-  background-color: #ee6c4d;
+  background-color:#106EBE;
   color: white;
 }
 
@@ -82,7 +82,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: #ee6c4d;
+    background: #01257D;
     padding: 24px 24px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
@@ -97,7 +97,7 @@
   }
 
   .active {
-    background-color: #ff946f;
+    background-color: #01257D;
     color: white;
   }
 }

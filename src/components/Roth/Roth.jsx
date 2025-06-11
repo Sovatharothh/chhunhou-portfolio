@@ -6,38 +6,36 @@ export const Roth = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          <p>Hi, This is</p>
-          <b className={styles.highlight}>ROTH TT</b>
+          <p>Hi, I am</p>
+          <b className={styles.highlight}>chhunhou</b>
         </h1>
 
-        <h2>Backend Developer | Aspiring Data Scientist | ICT Graduate@AUPP</h2>
+        <h2>Aspiring Legal Professional | Law Student | Youth Advocate</h2>
         <p className={styles.description}>
-          I am a passionate backend developer and data enthusiast. I love learning new technologies, building exciting projects, and diving into data analysis and web scraping just for fun TT
+            I’m a passionate law student with a strong academic foundation and practical experience across various legal and administrative roles. Currently working at the Ministry of Education, Youth and Sports, Cambodia.
+            Whether drafting legal documents, researching complex legislation, or assisting national moot court competitions, I bring precision, drive, and a deep commitment to justice and civic engagement.        
         </p>
 
         <div className={styles.socialLinks}>
-          <a href="https://t.me/Rothhel" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+          <a href="https://t.me/Chou_14" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
             <img src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/telegram.png" alt="Telegram" />
           </a>
-          <a href="https://www.linkedin.com/in/sovatharoth-hel/" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+          <a href="https://www.linkedin.com/in/hok-hourchhunhou-a6287b223/" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
             <img src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/linkedin.png" alt="LinkedIn" />
           </a>
-          <a href="mailto:sovatharoth@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+          <a href="mailto:chhunhou123@gmail.com |" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
             <img src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/gmail.png" alt="Email" />
-          </a>
-          <a href="https://github.com/Sovatharothh" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
-            <img src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/GitHub.png" alt="GitHub" />
           </a>
         </div>
 
-        <a href="https://t.me/Rothhel" className={styles.contactBtn}>
+        <a href="https://t.me/Chou_14" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
 
       <img
-        src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/roth101.png"
-        alt="Roth image"
+        src="https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//chhounhou%20(1).png"
+        alt="Chounhou image"
         className={styles.rothImg}
       />
     </section>

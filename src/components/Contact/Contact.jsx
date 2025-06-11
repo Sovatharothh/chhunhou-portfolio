@@ -12,28 +12,22 @@ export const Contact = () => {
       </div>
 
       <div className={styles.socialLinks}>
-        <a href="https://t.me/Rothhel" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+        <a href="https://t.me/Chou_14" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
           <img
             src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/telegram.png"
             alt="Telegram"
           />
         </a>
-        <a href="https://www.linkedin.com/in/sovatharoth-hel/" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+        <a href="https://www.linkedin.com/in/hok-hourchhunhou-a6287b223/" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
           <img
             src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/linkedin.png"
             alt="LinkedIn"
           />
         </a>
-        <a href="mailto:sovatharoth@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
+        <a href="mailto:chhunhou123@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
           <img
             src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/gmail.png"
             alt="Email"
-          />
-        </a>
-        <a href="https://github.com/Sovatharothh" target="_blank" rel="noopener noreferrer" className={styles.iconLink}>
-          <img
-            src="https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/GitHub.png"
-            alt="GitHub"
           />
         </a>
       </div>

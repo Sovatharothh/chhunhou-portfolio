@@ -7,10 +7,11 @@
 }
 
 .title {
-  color: #04152d;
+  color:#106EBE;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 1.75px;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -28,6 +29,8 @@
   flex-wrap: nowrap;
   gap: 20px;
   justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -37,13 +40,13 @@
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px #106EBE;
+  transition: box-shadow 0.3s ease;
 }
 
 .exchangeprogramItem:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px #106EBE;
+  transition: box-shadow 0.3s ease;
 }
 
 /* Image styles */

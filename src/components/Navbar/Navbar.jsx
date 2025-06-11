@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Sovatharoth HEL
+        Hok Hourchhunhou
       </a>
       <div className={styles.menu}>
         <img
@@ -43,15 +43,6 @@ export const Navbar = () => {
               onClick={() => handleMenuClick("#experience")}
             >
               Experiences
-            </a>
-          </li>
-          <li>
-            <a
-              href="#projects"
-              className={activeLink === "#projects" ? styles.active : ""}
-              onClick={() => handleMenuClick("#projects")}
-            >
-              Projects
             </a>
           </li>
           <li>

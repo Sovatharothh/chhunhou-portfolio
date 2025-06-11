@@ -1,141 +1,145 @@
-@import "../../vars.css";
-
 .container {
-  color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 4rem 5%;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 50px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start; 
-  margin-top: 30px;
-}
-
-.skills {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 30px;
-  margin-right:90px;
 }
 
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-}
-
-.skillImageContainer img {
-  width: 70px;
-}
-
-.skill p {
-  font-size: 0.9rem;
-  font-family: var(--font-roboto);
-  font-weight: 300;
-}
-
-.history {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.historyItem {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  border-radius: 8px;
+.card {
+  background: #106EBE;;
+  color: #fff;
+  border-radius: 12px;
   padding: 20px;
-  align-items: flex-start; 
-  background-color:#ee6c4d;
-  transition: background-color 0.4s ease; 
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.historyItem:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+  border-color:#106EBE;
 }
 
-
-.historyItem img {
-  width: 100px;
+.featured {
+  grid-column: span 2;
+  background: #106EBE;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
+.expanded {
+  background: #106EBE;;
 }
 
-.historyItemDetails h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
+.header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-.historyItemDetails p {
-  font-size: 0.9rem;
-  font-style: italic;
-  font-weight: 300;
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+  padding: 5px;
 }
 
-.historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 0.9rem;
-  list-style-type: disc;
-  margin-left: 17px;
+.headline h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #fff;
 }
 
-.historyItemDetails a {
-  color: #fafafa; 
+.headline h4 {
+  margin: 0;
   font-size: 1rem;
-  text-decoration: underline; 
-  transition: color 0.3s ease;
+  color: white;
 }
 
-.historyItemDetails a:hover {
-  color: wheat; 
+.duration {
+  font-size: 0.85rem;
+  color: #f5eeee;
+  font-style: italic;
 }
 
-@media screen and (max-width: 830px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.preview {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #c9d1d9;
+}
+
+.details {
+  margin-top: 15px;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* summary bar */
+
+.summary {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.statBox {
+  background: #f8ffff;
+  border-radius: 12px;
+  padding: 20px 30px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.statBox:hover {
+  transform: translateY(-4px);
+}
+
+.statBox span {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #01257D;
+}
+
+.statBox p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #0789aa;
+}
+
+.highlight {
+  color:navy;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
 
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .history {
-    width: 100%;
-    gap: 9px;
+  .featured {
+    grid-column: span 1;
   }
 }

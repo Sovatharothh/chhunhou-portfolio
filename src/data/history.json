@@ -1,46 +1,75 @@
 [
   {
-    "role": "Developer & Graphic Designer",
-    "organisation": "Center for Digital and Distance Education, MoEYS",
-    "startDate": "Jun, 2021",
-    "endDate": "Oct, 2024",
-    "experiences": [
-      "Restructured and Uploaded educational content to <a href='https://duraseksa.gov.kh' target='_blank'>duraseksa.gov.kh</a>.",
-      "Designed posters and organized events/competitions to promote digital and STEM education in Cambodia",
-      "Led a video competition project themed Digital Education in Cambodia",
-      "Built an attendance Telegram bot for tracking staff's daily attendance",
-      "Automated and restructured data for <a href='https://library.duraseksa.gov.kh' target='_blank'>library.duraseksa.gov.kh</a>, an online library initiative.",
-      "Supported intern teams with UX/UI design for their projects.",
-      "Supported other departments in automating tasks."
-    ],
-    "imageSrc": "https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/cdde.png",
-    "link": "https://www.facebook.com/cdde.org"
-  },
-  {
-    "role": "Backend Dev & Graphic Designer Intern",
-    "organisation": "Polymer Invoice",
-    "startDate": "Aug, 2024",
-    "endDate": "Dec, 2024",
-    "experiences": [
-      "Developed an API to extract data from KHQR codes uploaded by customers.",
-      "Designed posters to raise awareness about financial literacy and Polymer services"
-    ],
-    "imageSrc": "https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/polymer.png",
-    "link": "https://www.polymerinvoice.com/"
-  },
-  {
-    "role": "Co-Founder",
-    "organisation": "Wander in Tech",
-    "startDate": "Jun, 2022",
+    "role": "Contract Legal Officer",
+    "organisation": "Ministry of Education Youth and Sports",
+    "startDate": "Dec, 2024",
     "endDate": "Present",
     "experiences": [
-      "Co-founded a tech initiative to empower Cambodian youth through digital literacy",
-      "Organized the WiT Web Development Camp (2022), training over 50 students",
-      "Organized the Digital Literacy Online Workshop (2023)",
-      "Organized the WiT Data Science Camp (2024), training over 50 students",
-      "Brought STEM onsite-conferences to 1,000+ students across Cambodia"
+      "Responsible for the general legal work of the Secretariat, including researching the progress of legal documents.",
+      "Coordinated administrative work such as speeches, letters, reports, and presentations.",
+      "Compiled and disseminated legal and administrative documents to Secretariat officials.",
+      "Reviewed and provided legal advice on documents, contracts, and daily operations.",
+      "Ensured compliance of Secretariat activities with laws and policies.",
+      "Collaborated with HR, State Property, One Window Service, and Complaints Departments for document review and monitoring."
     ],
-    "imageSrc": "https://deizhycgdcbjnpwmrxnp.supabase.co/storage/v1/object/public/portfolio-assets/wit.png",
-    "link": "https://www.facebook.com/wanderintech"
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//Emblem_of_the_Ministry_of_Education,_Youth_and_Sport_(Cambodia).svg.png",
+    "link": "https://moeys.gov.kh"
+  },
+  {
+    "role": "Legal Intern",
+    "organisation": "Sithisak Law Office",
+    "startDate": "Jun, 2024",
+    "endDate": "Sep, 2024",
+    "experiences": [
+      "Performed legal research and reporting to attorneys and legal advisors.",
+      "Drafted agreements, loan/security documents, legal opinions, and compliance alerts.",
+      "Facilitated delivery and collection of legal documents.",
+      "Liaised with bank officers, clients, and government officials.",
+      "Translated legal documents as required."
+    ],
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//law.png",
+    "link": "#"
+  },
+  {
+    "role": "Legal Intern",
+    "organisation": "Sala Traju Association",
+    "startDate": "Feb, 2024",
+    "endDate": "May, 2024",
+    "experiences": [
+      "Prepared administrative documents and legal lexicon data entry.",
+      "Assisted protocol tasks for seminars and workshops.",
+      "Conducted legal research on Arbitration."
+    ],
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//traju.jpg",
+    "link": "#"
+  },
+  {
+    "role": "Legal Intern",
+    "organisation": "FinTech Center – Non-Bank Financial Services Authority",
+    "startDate": "Sep, 2023",
+    "endDate": "Mar, 2024",
+    "experiences": [
+      "Prepared administrative and legal documents related to digital finance.",
+      "Compiled legal lexicons and digital economy compendiums.",
+      "Assisted in seminars and conducted research on fintech's role in AML."
+    ],
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//241373632_4518940768170980_4160963244964001805_n.jpg",
+    "link": "#"
+  },
+  {
+    "role": "Administrative & Finance Assistant",
+    "organisation": "Center of Digital Education and Innovation Fund – MoEYS",
+    "startDate": "Jun, 2021",
+    "endDate": "Oct, 2023",
+    "experiences": [
+      "Coordinated daily operations including scheduling, correspondence, and records.",
+      "Assisted the Under Secretary of State, MoEYS.",
+      "Organized meetings, workshops, and training for digital education programs.",
+      "Handled procurement, inventory, and office supplies.",
+      "Prepared and tracked budgets, expenses, and audit documentation.",
+      "Supported teams and external partners for smooth program delivery."
+    ],
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//Logo_512x512.png",
+    "link": "https://www.facebook.com/cdde.org"
   }
 ]
