@@ -1,5 +1,5 @@
 import styles from './App.module.css'
-import { Navbar } from './components/navbar/navbar'
+import { Navbar } from './components/Navbar/Navbar'
 import {Roth} from './components/Roth/Roth'
 import { About } from './components/About/About'
 import { Experience } from './components/Experience/Experience'
