@@ -60,7 +60,7 @@
 }
 
 .exchangeprogramItem:hover img {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Details section */
@@ -132,11 +132,16 @@
 }
 
 @media screen and (max-width: 830px) {
+  .title {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
   .exchangeprogramContainer {
     flex-direction: row;
   }
 
   .exchangeprogramItem {
-    width: 35%;
+    width: 30%;
   }
 }

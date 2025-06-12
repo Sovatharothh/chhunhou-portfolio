@@ -142,4 +142,18 @@
   .featured {
     grid-column: span 1;
   }
+
+  .title {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .summary {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .statBox {
+    width: calc(50% - 10px); 
+  }
 }

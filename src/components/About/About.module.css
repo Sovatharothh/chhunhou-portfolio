@@ -2,7 +2,6 @@
 
 .container {
   position: relative;
-  /* background-color: rgba(12, 12, 12, 0.6); */
   background-color: white;
   border-radius: 10px;
   padding: 73px;
@@ -10,11 +9,10 @@
   z-index: 1;
   margin-left: 5%;
   margin-right: 5%;
-  
 }
 
 .title {
-  color:  #106EBE;
+  color: #106EBE;
   text-align: center;
   font-size: 50px;
   font-weight: 700;
@@ -23,8 +21,6 @@
   margin-bottom: 10px;
 }
 
-
-/* Card */
 .card {
   background-color: whitesmoke;
   border: 1px solid #e0e0e0;
@@ -40,12 +36,12 @@
   box-shadow: 0 10px 30px #106EBE;
 }
 
-/* Top section of each card */
 .cardHeader {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 
 .schoolLogo {
@@ -61,7 +57,6 @@
   margin-top: 3px;
 }
 
-/* Program blocks */
 .program {
   display: flex;
   justify-content: space-between;
@@ -71,6 +66,8 @@
   margin-top: 12px;
   border-radius: 8px;
   border: 1px solid #eee;
+  flex-wrap: wrap;
+  row-gap: 8px;
 }
 
 .gpa {
@@ -80,4 +77,33 @@
   font-weight: 500;
   border-radius: 6px;
   font-size: 0.9rem;
+}
+
+/* === Mobile View === */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .title {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .program {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .gpa {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+  }
 }
