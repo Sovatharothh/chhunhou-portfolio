@@ -27,13 +27,22 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}>
+                    <li>
+            <a
+              href="#Roth"
+              className={activeLink === "#Roth" ? styles.active : ""}
+              onClick={() => handleMenuClick("#Roth")}
+            >
+              About
+            </a>
+          </li>
           <li>
             <a
               href="#about"
               className={activeLink === "#about" ? styles.active : ""}
               onClick={() => handleMenuClick("#about")}
             >
-              About
+              Education
             </a>
           </li>
           <li>
@@ -45,6 +54,16 @@ export const Navbar = () => {
               Experiences
             </a>
           </li>
+          <li>
+            <a
+              href="#InteractiveCompetitions"
+              className={activeLink === "#InteractiveCompetitions" ? styles.active : ""}
+              onClick={() => handleMenuClick("#InteractiveCompetitions")}
+            >
+              Competitions
+            </a>
+          </li>
+
           <li>
             <a
               href="#exchange-program"

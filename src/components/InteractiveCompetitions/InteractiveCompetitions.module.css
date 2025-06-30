@@ -1,0 +1,177 @@
+/* BASE STYLES */
+
+.section {
+  padding: 60px 5%;
+  background-color: #106EBE;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #0FFCBE;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: middle;
+  stroke: #666;
+}
+
+.description {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.filterBtn {
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.active {
+  background: #01257D;
+  color: white;
+  border-color: #01257D;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 320px;
+  box-shadow: 0 4px 8px #3c3e3f;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+}
+
+.imageWrap {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tags {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+  background: #106EBE;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardContent h3 {
+  font-size: 18px;
+  color: #0f1e3a;
+  margin-bottom: 8px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.text {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* RESPONSIVE STYLES */
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .filterBtn {
+    font-size: 13px;
+    padding: 6px 16px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .cardContent h3 {
+    font-size: 16px;
+  }
+
+  .meta, .text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Cambodia Moot Court Competition – ECCC",
+    "date": "March 2025",
+    "location": "Likely Phnom Penh, Cambodia",
+    "description": "A national legal simulation competition focused on proceedings of the Extraordinary Chambers in the Courts of Cambodia (ECCC).",
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//ECCC.JPG",
+    "category": "legal",
+    
+    "year": 2025
+  },
+  {
+    "id": 2,
+    "title": "Willem C. Vis (East) International Commercial Arbitration Moot (School Round)",
+    "date": "February 2025",
+    "location": "Internal selection round (location not specified)",
+    "description": "Arbitration and contract law-focused competition designed to prepare for the international Vis Moot.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "legal",
+    
+    "year": 2025
+  },
+  {
+    "id": 3,
+    "title": "Cambodian ILSA Chapter International Commercial Arbitration Mock Moot",
+    "date": "July 2024",
+    "location": "Cambodia",
+    "description": "Arbitration mock competition emphasizing claimant case strategy and written advocacy.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "legal",
+    
+    "year": 2024
+  },
+  {
+    "id": 4,
+    "title": "Provisional Detention Moot Hearing Competition",
+    "date": "April, 2024",
+    "location": "Sala Traju Association, Phnom Penh",
+    "description": "A legal advocacy contest focused on pre-trial detention rights and courtroom practice.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "legal",
+    
+    "year": 2024
+  },
+  {
+    "id": 5,
+    "title": "Youth Leadership Summit",
+    "date": "September 2023",
+    "location": "Not mentioned",
+    "description": "National youth empowerment event recognizing innovative leadership practices.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "leadership",
+    
+    "year": 2023
+  },
+  {
+    "id": 6,
+    "title": "Asia Development Foundation Scholarship",
+    "date": "2022",
+    "location": "Cambodia",
+    "description": "One of 30 selected students in Cambodia to receive university fee support.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "leadership",
+    
+    "year": 2022
+  },
+  {
+    "id": 7,
+    "title": "1st National Outstanding Award in Aspiration Competition",
+    "date": "November 2022",
+    "location": "Cambodia",
+    "description": "Successfully participated in the national aspiration competition and received an outstanding award.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "leadership",
+    
+    "year": 2022
+  },
+  {
+    "id": 8,
+    "title": "Youth Labor Ambassador – Labor Plus",
+    "date": "2024",
+    "location": "Cambodia",
+    "description": "A youth-led outreach project to promote labor rights awareness among young people. Activities included organizing outreach, workshops, and social media campaigns to support labor education and rights advocacy.",
+    "imageSrc": "https://your-link.com/placeholder.jpg",
+    "category": "leadership",
+    
+    "year": 2024
+  },
+  {
+    "id": 9,
+    "title": "Legal Youth Club",
+    "date": "Not specified (likely ongoing as an extracurricular activity during 2023–2025)",
+    "location": "Phnom Penh, Cambodia",
+    "description": "A youth-led initiative focused on promoting legal awareness and civic engagement. The club actively shares legal knowledge through social media and podcasts, aiming to empower Cambodian youth on legal matters.",
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//legal%20youth%20club.png",
+    "category": "legal",
+    
+    "year": 2025
+  },
+  {
+    "id": 10,
+    "title": "Clinic Legal Education of ELBBL Program – Criminal Law Mock Moot Competition",
+    "date": "23 Nov 2024",
+    "location": "Phnom Penh, Cambodia",
+    "description": "Won the Best Defendant Memorandum and Best Oralist as Defendant Lawyer in a mock criminal law moot competition.",
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//CLE%20moot.png",
+    "category": "legal",
+    
+    "year": 2024
+  }
+]

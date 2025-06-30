@@ -34,7 +34,7 @@ export const Roth = () => {
       </div>
 
       <img
-        src="https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//chhounhou%20(1).png"
+        src="https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//chhunhou.png"
         alt="Chounhou image"
         className={styles.rothImg}
       />
