@@ -12,7 +12,7 @@ export const InteractiveCompetitions = () => {
   const getCategoryIcon = (category) => {
     switch (category) {
       case "legal": return "⚖️";
-      case "leadership": return "👑";
+      case "leadership": return "🧭";
       default: return "🏆";
     }
   };
