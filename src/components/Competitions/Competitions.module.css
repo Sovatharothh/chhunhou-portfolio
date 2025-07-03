@@ -134,8 +134,10 @@
 
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 36px;
+    font-size: 30px;
+    letter-spacing: 1px;
   }
+
 
   .description {
     font-size: 1rem;

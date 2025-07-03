@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Roth.module.css";
+import styles from "./chhunhou.module.css";
 
-export const Roth = () => {
+export const Chhunhou = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>

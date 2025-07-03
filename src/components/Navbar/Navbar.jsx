@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
@@ -27,20 +27,20 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}>
-                    <li>
+          <li>
             <a
-              href="#Roth"
-              className={activeLink === "#Roth" ? styles.active : ""}
-              onClick={() => handleMenuClick("#Roth")}
+              href="#about"
+              className={activeLink === "#about" ? styles.active : ""}
+              onClick={() => handleMenuClick("#about")}
             >
               About
             </a>
           </li>
           <li>
             <a
-              href="#about"
-              className={activeLink === "#about" ? styles.active : ""}
-              onClick={() => handleMenuClick("#about")}
+              href="#Educations"
+              className={activeLink === "#Educations" ? styles.active : ""}
+              onClick={() => handleMenuClick("#Educations")}
             >
               Education
             </a>
@@ -56,14 +56,13 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="#InteractiveCompetitions"
-              className={activeLink === "#InteractiveCompetitions" ? styles.active : ""}
-              onClick={() => handleMenuClick("#InteractiveCompetitions")}
+              href="#competitions"
+              className={activeLink === "#competitions" ? styles.active : ""}
+              onClick={() => handleMenuClick("#competitions")}
             >
               Competitions
             </a>
           </li>
-
           <li>
             <a
               href="#exchange-program"

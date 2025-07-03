@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import styles from "./InteractiveCompetitions.module.css";
+import styles from "./Competitions.module.css";
 import data from "../../data/competitions.json";
 
-export const InteractiveCompetitions = () => {
+export const Competitions = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
   const filtered = activeFilter === "all"
@@ -18,7 +18,7 @@ export const InteractiveCompetitions = () => {
   };
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="competitions">
       <h2 className={styles.title}>
         Competitions & <span className={styles.highlight}>Programs</span>
       </h2>

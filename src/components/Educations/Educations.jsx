@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./About.module.css";
+import styles from "./Educations.module.css";
 
-export const About = () => {
+export const Educations = () => {
   return (
-    <section className={styles.container} id="about">
+    <section className={styles.container} id="Educations">
       <h2 className={styles.title}>Education Background</h2>
       <div className={styles.timeline}>
         <div className={styles.entry}>
