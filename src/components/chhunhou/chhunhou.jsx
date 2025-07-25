@@ -6,7 +6,6 @@ export const Chhunhou = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          <p>Hi, I am</p>
           <b className={styles.highlight}>chhunhou</b>
         </h1>
 
@@ -34,7 +33,7 @@ export const Chhunhou = () => {
       </div>
 
       <img
-        src="https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//chhunhou.png"
+        src="https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//chhunhou%20(1).png"
         alt="Chounhou image"
         className={styles.rothImg}
       />

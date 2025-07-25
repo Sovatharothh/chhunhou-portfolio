@@ -6,6 +6,7 @@ export const Educations = () => {
     <section className={styles.container} id="Educations">
       <h2 className={styles.title}>Education Background</h2>
       <div className={styles.timeline}>
+        {/* RULE */}
         <div className={styles.entry}>
           <div className={styles.dot}></div>
           <div className={styles.card}>
@@ -39,6 +40,7 @@ export const Educations = () => {
           </div>
         </div>
 
+        {/* UGM - 2024 */}
         <div className={styles.entry}>
           <div className={styles.dot}></div>
           <div className={styles.card}>
@@ -60,6 +62,32 @@ export const Educations = () => {
                 <p>July 2024</p>
               </div>
               <span className={styles.gpa}>GPA: <strong>A</strong></span>
+            </div>
+          </div>
+        </div>
+
+        {/* VNU-HCM - 2025 */}
+        <div className={styles.entry}>
+          <div className={styles.dot}></div>
+          <div className={styles.card}>
+            <div className={styles.cardHeader}>
+              <img
+                src="https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//VNU-HCM_logo.png"
+                alt="VNU-HCM"
+                className={styles.schoolLogo}
+              />
+              <div>
+                <h3>Vietnam National University, Ho Chi Minh City</h3>
+                <p className={styles.location}>Vietnam</p>
+              </div>
+            </div>
+
+            <div className={styles.program}>
+              <div>
+                <h4>ASEAN University Network Summer Camp</h4>
+                <p>July 2025</p>
+              </div>
+              <span className={styles.gpa}>Grade: <strong>89.4</strong></span>
             </div>
           </div>
         </div>

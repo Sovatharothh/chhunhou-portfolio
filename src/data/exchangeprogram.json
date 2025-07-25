@@ -1,4 +1,15 @@
 [
+    {
+    "title": "ASEAN University Network Summer Camp",
+    "location": "Vietnam National University, Ho Chi Minh City, Vietnam",
+    "startDate": "06, July, 2025",
+    "endDate": "19, July, 2025",
+    "description": [
+      "Delegate at AUN-VNUHCM Summer Camp 2025, collaborating with ASEAN students on youth leadership and cultural exchange.",
+      "Won first prize for the initiative project in the Program."
+    ],
+    "imageSrc": "https://kznkgfggjytrgctfggte.supabase.co/storage/v1/object/public/portfolio-web//AUN.jpg"
+  },
   {
     "title": "International Exchange between RULE and Chuo University",
     "location": "Cambodia and Japan",
